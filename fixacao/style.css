@@ -16,6 +16,7 @@
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+    position: relative;
   }
   
   section{
@@ -29,10 +30,28 @@
   nav{
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
   }
   
-  footer{
-    background-color: #abd1c6;
+  footer:hover{
+    background-color:#abd1c6;
     padding: 20px;
     text-align: center;
+  }
+  #absoluta{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  #centralizada{
+    text-align: center;
+  }
+  .clicada:active{
+    background-color: green;
+  }
+  footer:hover{
+    background-color: yellow;
   }
